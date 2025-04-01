@@ -1,5 +1,88 @@
-/* Тут пиши основные стили */
+.main-container{
+    display: inline-block;
+    margin-left: 360px;
+    margin-right: 360px;
+}
 
+p {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin: 10px 2px 0px 2px;
+}
+
+h1, h2{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-top: 55px;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+h2{
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+.Words{
+    font-family: "Courier New", monospace;
+    background-color: #f0f8ff;
+}
+
+.l .kira{
+    width: 700px;
+}
+
+.kira{
+    height: 923px; 
+}
+
+.l{
+    height: 727px; 
+}
+
+.shapka {
+    display: inline-block;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+
+.shapka li {
+    list-style: none;
+    display: inline-block; 
+    position: relative;
+    padding: 10px 15px;
+    margin: 0 2px;
+}
+
+.shapka li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+.shapka li a:hover {
+    cursor: pointer;
+}
+
+.shapka{
+    border-bottom: 1px solid #0c0c0c;
+    border-top: 1px solid #0c0c0c;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
